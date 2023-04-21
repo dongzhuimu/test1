@@ -8,7 +8,7 @@ git push github master
 分支合并
 git merge github/master
 git merge --allow-unrelated-histories github/master
-
+三、
 查看分支
 git branch -v
 git branch -va
