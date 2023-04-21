@@ -4,7 +4,7 @@ git fetch github master
 把本地推到远端
 git push github --all
 git push github master
-
+二、
 分支合并
 git merge github/master
 git merge --allow-unrelated-histories github/master
