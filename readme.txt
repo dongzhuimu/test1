@@ -13,3 +13,8 @@ git merge --allow-unrelated-histories github/master
 查看分支
 git branch -v
 git branch -va
+
+删除文件
+git rm abc.txt
+修改文件名
+git mv abc.txt(旧名) aaa.txt（新名）
