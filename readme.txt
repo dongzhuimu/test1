@@ -1,4 +1,3 @@
-git remote add github git@github.com:dongzhuimu/test1.git
 
 把远端文件到本地
 git fetch github master
