@@ -1,6 +1,11 @@
 一
 把远端文件到本地
 git fetch github master
+git log -p fetch_head
+git merge fetch_head
+或者
+git pull github master
+
 把本地推到远端
 git push github --all
 git push github master
