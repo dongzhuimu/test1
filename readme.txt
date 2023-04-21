@@ -1,2 +1,15 @@
-1212
-12
+git remote add github git@github.com:dongzhuimu/test1.git
+
+把远端文件到本地
+git fetch github master
+把本地推到远端
+git push github --all
+git push github master
+
+分支合并
+git merge github/master
+git merge --allow-unrelated-histories github/master
+
+查看分支
+git branch -v
+git branch -va
