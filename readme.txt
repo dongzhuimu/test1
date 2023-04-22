@@ -22,3 +22,8 @@ git branch -va
 git rm abc.txt
 修改文件名
 git mv abc.txt(旧名) aaa.txt（新名）
+
+把commit合并
+git rebase -i 9aa66bf1e0
+i能够输入，把要变的改s
+:wq!强制保存并退出
